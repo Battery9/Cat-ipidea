@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      function scrollToTop() {
+        window.scrollTo({
+          top: 0,
+          behavior: "smooth",
+        });
+      }
+    </script>
+    <link href="styles.css" rel="stylesheet" />
+    <title>Cat-ipidea</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand ml-10" style="margin-left: 10px" href="#"
+        >Catipidea</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarNav"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cat_behavior.html">Cat Behavior</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cat_breeds.html">Cat Breeds</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./cat_food.html">Cat Foods</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="hero">
+      <h1 class="heading">
+        Where cats are king: your go-to destination for all things feline.
+      </h1>
+      <div class="buttons">
+        <a href="https://www.bing.com/search?q=get+a+cat"><button type="button" class="btn btn-primary btn-lg" style="margin-right: 10px;">Get A Cat!</button></a>
+        <a href="https://cats.com"><button type="button" class="btn btn-info btn-lg ml-5" style="margin-left: 10px;">Know More.</button></a>
+      </div>
+    </section>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Scroll to Top</button>
+  </body>
+</html>

@@ -1,0 +1,97 @@
+html {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: block;
+}
+.nav-link:hover {
+    text-decoration: underline;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 95vh;
+    background: url("./image.jpg") no-repeat center center / cover;
+}
+.heading {
+    font-size: 65px;
+    text-align: center;
+    color: aliceblue;
+    margin: 0 13vw;
+}
+.buttons {
+    margin-top: 30px;
+}
+.hero_behavior {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 94vh;
+    background: url("./cat2.jpg") no-repeat center center / cover;
+    color: aliceblue;
+}
+.hero_behavior > content {
+    font-size: 23px;
+    text-align: center;
+    margin: 10px 150px;
+}
+.hero_foods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 94vh;
+    background: url("./cat-food.png") no-repeat center center / cover;
+    color: orchid;
+}
+.hero_foods > content {
+    font-size: 23px;
+    text-align: center;
+    margin: 10px 150px;
+}
+
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+}
+
+#breed-info {
+    display: flex;
+    gap: 50px;
+	margin-bottom: 2rem;
+}
+
+#breed-info h2 {
+	font-size: 2rem;
+	margin-bottom: 1rem;
+}
+
+#breed-info img {
+	min-width: 400px;
+    max-width: 410px;
+    min-height: 400px;
+    max-height: 410px;
+}
+
+#breed-info p {
+	line-height: 1.5;
+}
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+.img-square-wrapper img{
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+}
